@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="payrolls.models.EmployeeModel.*" />
+          <option value="payrolls.models.PayGradeModel.*" />
+          <option value="payrolls.models.PayrollModel.*" />
+          <option value="payrolls.models.AllowanceCategoriesModel.*" />
+          <option value="payrolls.models.OvertimeModel.*" />
+          <option value="payrolls.models.BonusModel.DoesNotExist" />
+          <option value="payrolls.models.BonusModel.*" />
+          <option value="payrolls.models.EmployeeAllowance.*" />
+          <option value="datetime.now" />
+          <option value="payrolls.views.strftime" />
+          <option value="payrolls.models.DepartmentsModel.objects" />
+          <option value="payrolls.models.InstitutionsModel.objects" />
+          <option value="django.db.models.fields.related.OneToOneField.first_name" />
+          <option value="django.db.models.fields.related.ForeignKey.first_name" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
